@@ -1,0 +1,2 @@
+model,test_KL_mean,test_KL_std,test_JSD_mean,test_JSD_std,test_cosine_mean,test_cosine_std,pearson_entropy_corr,spearman_entropy_corr,precision_at_100,precision_at_200,precision_at_500
+ResNet18_JSD,1.1591672,2.0568438,0.15897931,0.225678,0.76475006,0.37013048,0.22909513,0.25605048617158505,0.08,0.2,0.386

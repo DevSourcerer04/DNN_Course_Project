@@ -1,0 +1,2 @@
+model,test_KL_mean,test_KL_std,test_JSD_mean,test_JSD_std,test_cosine_mean,test_cosine_std,pearson_entropy_corr,spearman_entropy_corr,precision_at_100,precision_at_200,precision_at_500
+ResNet18_KL_MLP_Head,0.65350574,1.1026285,0.1334075,0.18358909,0.81521046,0.31429356,0.2472136,0.27573031022039424,0.07,0.165,0.38
