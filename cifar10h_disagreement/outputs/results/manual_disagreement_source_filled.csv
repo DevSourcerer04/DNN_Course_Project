@@ -1,0 +1,31 @@
+rank,image_index,cifar10_hard_label,human_top_label,true_entropy,top_human_distribution,manual_reason_category,manual_short_note
+1,6750,deer,frog,2.8601763248443604,"frog:0.25, dog:0.17, deer:0.17, cat:0.12",ambiguous_object_identity,"Object is extremely unclear; human labels split across frog, dog, deer, and cat."
+2,8153,deer,deer,2.4301602840423584,"deer:0.38, dog:0.20, cat:0.16, bird:0.08",poor_image_quality,Very low-resolution and blurry object; shape is hard to identify confidently.
+3,6792,cat,cat,2.3715107440948486,"cat:0.32, truck:0.22, ship:0.22, dog:0.12",multi_object_or_multilabel,"Image appears cluttered and may contain multiple visual cues, causing cat, ship, truck, and dog confusion."
+4,5369,deer,deer,2.3120007514953613,"deer:0.37, bird:0.24, horse:0.16, dog:0.14",boundary_between_classes,"Animal-like object has unclear shape; deer, bird, and horse responses are mixed."
+5,86,bird,bird,2.2923407554626465,"bird:0.49, ship:0.15, frog:0.11, dog:0.09",poor_image_quality,"Object is blurred and visually unclear; bird, ship, frog, and dog responses are spread out."
+6,2232,airplane,airplane,2.2739288806915283,"airplane:0.47, cat:0.18, bird:0.16, dog:0.06",poor_image_quality,Image is dark and blurred; airplane shape is not clearly visible.
+7,5840,bird,bird,2.260908842086792,"bird:0.56, horse:0.10, cat:0.10, dog:0.08",boundary_between_classes,"Animal or object silhouette is unclear and sits between bird, horse, cat, and dog."
+8,3463,cat,cat,2.251473188400269,"cat:0.41, dog:0.29, bird:0.12, automobile:0.07",similar_looking_classes,Animal image is ambiguous; cat and dog features are visually similar at low resolution.
+9,3357,ship,cat,2.2389607429504395,"cat:0.41, ship:0.29, bird:0.12, frog:0.06",background_or_context_confusion,"Water or background context and object shape may cause ship, cat, and bird confusion."
+10,3391,cat,cat,2.228299140930176,"cat:0.33, dog:0.27, bird:0.25, deer:0.06",similar_looking_classes,"Animal pose and blur make cat, dog, bird, and deer labels plausible."
+11,6197,deer,bird,2.2133984565734863,"bird:0.42, deer:0.24, dog:0.12, horse:0.08",poor_image_quality,"Dark, blurry image makes the object identity unclear; bird, deer, dog, and horse confusion."
+12,5227,deer,deer,2.189940452575684,"deer:0.47, horse:0.14, frog:0.14, dog:0.12",boundary_between_classes,"Animal shape resembles deer, frog, dog, and other patterns due to low clarity."
+13,4821,deer,deer,2.1765496730804443,"deer:0.44, cat:0.17, bird:0.13, frog:0.12",background_or_context_confusion,"Object is small and background dominates; deer, cat, bird, and frog responses are mixed."
+14,8855,deer,deer,2.17570161819458,"deer:0.44, cat:0.18, bird:0.14, frog:0.12",similar_looking_classes,"Animal is blurry; deer, cat, bird, and frog classes appear visually similar."
+15,5734,frog,frog,2.1576948165893555,"frog:0.44, bird:0.23, deer:0.13, dog:0.12",boundary_between_classes,"Frog-like animal or object also resembles bird, deer, and dog due to pose and low resolution."
+16,7238,deer,deer,2.129016876220703,"deer:0.41, frog:0.24, bird:0.19, dog:0.09",boundary_between_classes,"Deer-like figure is visually ambiguous and partially unclear; frog, bird, and dog also chosen."
+17,2855,cat,cat,2.1208739280700684,"cat:0.38, bird:0.25, frog:0.23, dog:0.09",similar_looking_classes,Cat-like image has features that could also be interpreted as bird or frog.
+18,5837,bird,bird,2.1084930896759038,"bird:0.48, cat:0.20, dog:0.16, frog:0.06",poor_image_quality,"Blurry image with unclear object boundary; bird, cat, dog, and frog confusion."
+19,6024,bird,bird,2.102058887481689,"bird:0.62, truck:0.08, automobile:0.06, deer:0.06",boundary_between_classes,Bird-like image also resembles truck or automobile due to shape and background.
+20,7590,bird,deer,2.0797135829925537,"deer:0.40, cat:0.23, bird:0.23, dog:0.08",similar_looking_classes,"Animal body shape creates deer, cat, bird, and dog confusion."
+21,3113,cat,bird,2.0764803886413574,"bird:0.33, cat:0.29, frog:0.27, horse:0.04",ambiguous_object_identity,"Dark image with unclear object; bird, cat, frog, and horse responses are spread."
+22,3708,deer,deer,2.06601357460022,"deer:0.42, cat:0.21, frog:0.19, bird:0.10",similar_looking_classes,"Deer-like animal appears similar to cat, frog, and bird in low-resolution view."
+23,9218,cat,cat,2.052248954772949,"cat:0.50, dog:0.20, bird:0.12, deer:0.08",similar_looking_classes,Cat image is ambiguous; dog and bird are also plausible from visual cues.
+24,2136,airplane,airplane,2.0459213256835938,"airplane:0.47, automobile:0.16, ship:0.14, truck:0.14",background_or_context_confusion,"Airplane or object shape and background cause confusion with automobile, ship, and truck."
+25,5398,ship,ship,2.040151357650757,"ship:0.57, frog:0.16, airplane:0.10, bird:0.06",background_or_context_confusion,"Ship or water-like scene has unclear details; frog, airplane, and bird were also selected."
+26,7410,deer,deer,2.016496181488037,"deer:0.35, cat:0.33, dog:0.23, frog:0.04",similar_looking_classes,"Deer-like animal also resembles cat, dog, and frog due to low resolution."
+27,1924,truck,truck,2.005375385284424,"truck:0.63, airplane:0.12, deer:0.06, horse:0.06",boundary_between_classes,"Truck-like object has unusual shape or viewpoint, causing airplane, deer, and horse confusion."
+28,3910,deer,bird,1.9972857236862185,"bird:0.41, deer:0.39, frog:0.06, horse:0.04",boundary_between_classes,Bird and deer confusion likely due to animal silhouette and background.
+29,4547,cat,cat,1.9827067852020264,"cat:0.37, bird:0.35, frog:0.14, deer:0.08",similar_looking_classes,"Cat-like animal overlaps visually with bird, frog, and deer categories."
+30,2180,deer,deer,1.9722381830215452,"deer:0.42, dog:0.21, bird:0.21, cat:0.13",ambiguous_object_identity,"Very small object in green background; deer, dog, bird, and cat responses are mixed."

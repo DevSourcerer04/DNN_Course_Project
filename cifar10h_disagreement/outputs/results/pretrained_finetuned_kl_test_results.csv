@@ -1,0 +1,2 @@
+model,test_KL_mean,test_KL_std,test_JSD_mean,test_JSD_std,test_cosine_mean,test_cosine_std,pearson_entropy_corr,spearman_entropy_corr,precision_at_100,precision_at_200,precision_at_500
+ResNet18_CIFAR10_Pretrained_Finetuned_KL,0.27030283,0.56958246,0.055625502,0.107854456,0.93409544,0.18466635,0.420014,0.41843239480941646,0.19,0.305,0.516
