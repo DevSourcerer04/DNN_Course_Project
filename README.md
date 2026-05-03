@@ -23,4 +23,8 @@ The best model achieved:
 
 1. Run data sanity checks:
 ```bash
+<<<<<<< HEAD
 python src/01_data_sanity_checks.py
+=======
+python src/01_data_sanity_checks.py
+>>>>>>> 516abfb297cf3bf266fb973e47cac5cd91b04ed7
